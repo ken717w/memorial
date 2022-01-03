@@ -13,7 +13,13 @@ use Illuminate\Support\Str;
 class CommentController extends Controller
 {
     const FIRESTORE_COLLECTION = 'comments';
-    const STORAGE_BUCKET = 'helen-cheung-memorial.appspot.com';
+
+    public $bucketName = '';
+
+    public function __construct()
+    {
+        $this->bucketName = env('GCP_BUCKET');
+    }
 
     /**
      * Display a listing of the resource.
@@ -57,7 +63,7 @@ class CommentController extends Controller
         // Upload photos to Cloud Storage
         if ($request->hasfile('photos')) {
             $storage = resolve(StorageClient::class);
-            $bucket = $storage->bucket(self::STORAGE_BUCKET);
+            $bucket = $storage->bucket($this->bucketName);
 
             foreach ($request->file('photos') as $file) {
                 $filename = (string) Str::orderedUuid();
@@ -80,7 +86,7 @@ class CommentController extends Controller
 
                 unlink($tmpfile);
 
-                $data['photos'][] = sprintf('https://storage.googleapis.com/%s/%s.compressed', self::STORAGE_BUCKET, $filename);
+                $data['photos'][] = sprintf('https://storage.googleapis.com/%s/%s.compressed', $this->bucketName, $filename);
             }
         }
 
