@@ -1,0 +1,156 @@
+$border-radius: 15px;
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+html, body {
+    font-family: 'Nunito', 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(/storage/background.png);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Parisienne', cursive;
+}
+
+#section-profile {
+    padding: 50px 0;
+
+    .avatar {
+        width: 100%;
+        padding-top: 100%;
+        background-image: url(https://i.imgur.com/2defaud.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+    }
+}
+
+#section-messages {
+    .blockquote {
+        $blockquote-bg: rgba(255, 255, 255, 1);
+
+        margin-bottom: $grid-gutter-width;
+        padding: $grid-gutter-width;
+        background: $blockquote-bg;
+        border-radius: $border-radius;
+    }
+}
+
+#section-gallery {
+    padding: 50px 0;
+    background: rgba(255, 255, 255, 0.4);
+
+    .embed-responsive-3by2::before {
+        padding-top: 100% * 2 / 3;
+    }
+
+    .carousel-indicators {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: static;
+        margin: 0;
+
+        li {
+            flex-basis: calc(50% - 5px);
+            height: auto;
+            margin: 0 0 10px;
+            border: 0;
+
+            &:not(.active) {
+                opacity: 0.7;
+            }
+
+            div {
+                padding-top: 100% * 2 / 3;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+}
+
+#section-comments {
+    padding: 50px 0;
+
+    .comment {
+        $comment-bg: rgba(255, 255, 255, 1);
+
+        &.image-left,
+        &.image-right {
+            .comment-body::before {
+                @include media-breakpoint-up(md) {
+                    content: '';
+                    position: absolute;
+                    top: 30px;
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                }
+            }
+        }
+
+        &.image-left {
+            .comment-body::before {
+                @include media-breakpoint-up(md) {
+                    right: 100%;
+                    border-color: transparent $comment-bg transparent transparent;
+                    border-width: $border-radius $border-radius $border-radius 0;
+                }
+            }
+        }
+
+        &.image-right {
+            .comment-body::before {
+                @include media-breakpoint-up(md) {
+                    left: 100%;
+                    border-color: transparent transparent transparent $comment-bg;
+                    border-width: $border-radius 0 $border-radius $border-radius;
+                }
+            }
+        }
+
+        .comment-image {
+            border-radius: $border-radius;
+            overflow: hidden;
+        }
+
+        .comment-body {
+            position: relative;
+            margin-bottom: $grid-gutter-width / 2;
+            padding: $grid-gutter-width / 2;
+            background: $comment-bg;
+            border-radius: $border-radius;
+
+            .comment-author {
+                font-size: 150%;
+            }
+
+            .comment-date {
+                font-style: italic;
+                color: #666;
+            }
+        }
+    }
+
+    .separator {
+        height: 70px;
+        margin: 30px 0;
+        background-image: url(/storage/separator.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 560px 70px;
+    }
+}
+
+#section-form {
+    .custom-file-label::after {
+        content: '選擇';
+    }
+}
