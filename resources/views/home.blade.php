@@ -29,8 +29,8 @@
                     </div>
                 </div>
 
-                <h1 class="display-4 mb-0 font-weight-bold text-center">Name</h1>
-                <h4 class="mb-0 text-center">Date</h4>
+                <h1 class="display-4 mb-0 font-weight-bold text-center">(Name)</h1>
+                <h4 class="mb-0 text-center">(Date)</h4>
             </div>
         </div>
 
@@ -126,7 +126,7 @@
 
         <div id="section-comments">
             <div class="container">
-                <h1 class="display-4 mb-3 text-center">To our lovely Helen</h1>
+                <h1 class="display-4 mb-3 text-center">To our lovely (Name)</h1>
             </div>
         </div>
 
