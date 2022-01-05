@@ -133,7 +133,7 @@
                             <li data-target="#carousel-gallery" data-slide-to="5">
                                 <div style="background-image: url(https://i.imgur.com/395yiWJ.jpg);"></div>
                             </li>
-                            <li data-target="#carousel-gallery" data-slide-to="5">
+                            <li data-target="#carousel-gallery" data-slide-to="6">
                                 <div style="background-image: url(https://i.imgur.com/gjkgkn8.jpg);"></div>
                             </li>
                         </ol>
