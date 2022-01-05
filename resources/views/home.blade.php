@@ -64,28 +64,22 @@
                                 <div id="carousel-gallery" class="carousel slide h-100" data-ride="carousel">
                                     <div class="carousel-inner h-100">
                                         <div class="carousel-item h-100 active">
-                                            <img class="d-block mw-100 mh-100 mx-auto" src="https://via.placeholder.com/800x600?text=Sample+Image+1">
+                                            <img class="d-block mw-100 mh-100 mx-auto" src="https://i.imgur.com/KUgc0nt.jpg">
                                         </div>
                                         <div class="carousel-item h-100">
-                                            <img class="d-block mw-100 mh-100 mx-auto" src="https://via.placeholder.com/800x600?text=Sample+Image+2">
+                                            <img class="d-block mw-100 mh-100 mx-auto" src="https://i.imgur.com/ez6vJsB.jpg">
                                         </div>
                                         <div class="carousel-item h-100">
-                                            <img class="d-block mw-100 mh-100 mx-auto" src="https://via.placeholder.com/800x600?text=Sample+Image+3">
+                                            <img class="d-block mw-100 mh-100 mx-auto" src="https://i.imgur.com/0AN0LFE.jpg">
                                         </div>
                                         <div class="carousel-item h-100">
-                                            <img class="d-block mw-100 mh-100 mx-auto" src="https://via.placeholder.com/800x600?text=Sample+Image+4">
+                                            <img class="d-block mw-100 mh-100 mx-auto" src="https://i.imgur.com/fXNbJDP.jpg">
                                         </div>
                                         <div class="carousel-item h-100">
-                                            <img class="d-block mw-100 mh-100 mx-auto" src="https://via.placeholder.com/800x600?text=Sample+Image+5">
+                                            <img class="d-block mw-100 mh-100 mx-auto" src="https://i.imgur.com/UU2EQTH.jpg">
                                         </div>
                                         <div class="carousel-item h-100">
-                                            <img class="d-block mw-100 mh-100 mx-auto" src="https://via.placeholder.com/800x600?text=Sample+Image+6">
-                                        </div>
-                                        <div class="carousel-item h-100">
-                                            <img class="d-block mw-100 mh-100 mx-auto" src="https://via.placeholder.com/800x600?text=Sample+Image+7">
-                                        </div>
-                                        <div class="carousel-item h-100">
-                                            <img class="d-block mw-100 mh-100 mx-auto" src="https://via.placeholder.com/800x600?text=Sample+Image+8">
+                                            <img class="d-block mw-100 mh-100 mx-auto" src="https://i.imgur.com/395yiWJ.jpg">
                                         </div>
                                     </div>
                                     <a class="carousel-control-prev" href="#carousel-gallery" role="button" data-slide="prev">
@@ -103,28 +97,22 @@
                     <div class="col-md-4 d-none d-md-block">
                         <ol class="carousel-indicators">
                             <li data-target="#carousel-gallery" data-slide-to="0" class="active">
-                                <div style="background-image: url(https://via.placeholder.com/800x600?text=Sample+Image+1);"></div>
+                                <div style="background-image: url(https://i.imgur.com/KUgc0nt.jpg);"></div>
                             </li>
                             <li data-target="#carousel-gallery" data-slide-to="1">
-                                <div style="background-image: url(https://via.placeholder.com/800x600?text=Sample+Image+2);"></div>
+                                <div style="background-image: url(https://i.imgur.com/ez6vJsB.jpg); background-position-y: 50%;"></div>
                             </li>
                             <li data-target="#carousel-gallery" data-slide-to="2">
-                                <div style="background-image: url(https://via.placeholder.com/800x600?text=Sample+Image+3);"></div>
+                                <div style="background-image: url(https://i.imgur.com/0AN0LFE.jpg); background-position-y: 20%;"></div>
                             </li>
                             <li data-target="#carousel-gallery" data-slide-to="3">
-                                <div style="background-image: url(https://via.placeholder.com/800x600?text=Sample+Image+4);"></div>
+                                <div style="background-image: url(https://i.imgur.com/fXNbJDP.jpg);"></div>
                             </li>
                             <li data-target="#carousel-gallery" data-slide-to="4">
-                                <div style="background-image: url(https://via.placeholder.com/800x600?text=Sample+Image+5);"></div>
+                                <div style="background-image: url(https://i.imgur.com/UU2EQTH.jpg);"></div>
                             </li>
                             <li data-target="#carousel-gallery" data-slide-to="5">
-                                <div style="background-image: url(https://via.placeholder.com/800x600?text=Sample+Image+6);"></div>
-                            </li>
-                            <li data-target="#carousel-gallery" data-slide-to="6">
-                                <div style="background-image: url(https://via.placeholder.com/800x600?text=Sample+Image+7);"></div>
-                            </li>
-                            <li data-target="#carousel-gallery" data-slide-to="7">
-                                <div style="background-image: url(https://via.placeholder.com/800x600?text=Sample+Image+8);"></div>
+                                <div style="background-image: url(https://i.imgur.com/395yiWJ.jpg);"></div>
                             </li>
                         </ol>
                     </div>
