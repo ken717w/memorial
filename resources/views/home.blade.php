@@ -144,7 +144,7 @@
 
         <div id="section-comments">
             <div class="container">
-                <h1 class="display-4 mb-3 text-center">To our lovely Stephen</h1>
+                <h1 class="display-4 mb-3 text-center">To our beloved Stephen</h1>
             </div>
         </div>
 
