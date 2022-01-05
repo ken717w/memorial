@@ -43,6 +43,10 @@ h1, h2, h3, h4, h5, h6 {
         padding: $grid-gutter-width;
         background: $blockquote-bg;
         border-radius: $border-radius;
+
+        p {
+            text-indent: 2em;
+        }
     }
 }
 
