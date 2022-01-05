@@ -29,7 +29,7 @@
                     </div>
                 </div>
 
-                <h1 class="display-4 mb-3 font-weight-bold text-center">Stephen Fung</h1>
+                <h1 class="display-4 mb-3 font-weight-bold text-center">Fung Yee Ko, Stephen</h1>
                 <h4 class="mb-0 text-center">17/12/1934 - 13/12/2021</h4>
             </div>
         </div>
