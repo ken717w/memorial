@@ -16,6 +16,10 @@ $(function () {
         return $(html).clone();
     }
 
+    const nl2br = function (str) {
+        return str.replace(/(\r\n|\n\r|\r|\n)/g, '<br>$1');
+    }
+
     $.getJSON('/comments', function (data) {
         const container = $('#section-comments > .container');
 
@@ -31,7 +35,7 @@ $(function () {
 
             template.find('.comment-author').text(val.author);
             template.find('.comment-date').text(timestamp.toLocaleDateString('zh-HK') + ' ' + timestamp.toLocaleTimeString('zh-HK'));
-            template.find('.comment-text').text(val.text);
+            template.find('.comment-text').html(nl2br(val.text));
             if (hasPhotos) {
                 template.find('.comment-image > img').attr('src', val.photos[0]);
             }
