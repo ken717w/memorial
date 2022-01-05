@@ -8,7 +8,7 @@
 
         <meta property="og:title" content="{{ config('app.name') }}">
         <meta property="og:description" content="">
-        <meta property="og:image" content="">
+        <meta property="og:image" content="https://i.imgur.com/f1zZILN.jpg">
 
         {{-- Fonts --}}
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -29,12 +29,20 @@
                     </div>
                 </div>
 
-                <h1 class="display-4 mb-0 font-weight-bold text-center">(Name)</h1>
-                <h4 class="mb-0 text-center">(Date)</h4>
+                <h1 class="display-4 mb-3 font-weight-bold text-center">Stephen Fung</h1>
+                <h4 class="mb-0 text-center">17/12/1934 - 13/12/2021</h4>
             </div>
         </div>
 
         <div id="section-notice">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <img class="img-fluid mb-3 mb-lg-5" src="https://i.imgur.com/0sCPnGj.jpg">
+                        <img class="img-fluid mb-3 mb-lg-5" src="https://i.imgur.com/hji2n9R.jpg">
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div id="section-messages">
@@ -126,7 +134,7 @@
 
         <div id="section-comments">
             <div class="container">
-                <h1 class="display-4 mb-3 text-center">To our lovely (Name)</h1>
+                <h1 class="display-4 mb-3 text-center">To our lovely Stephen</h1>
             </div>
         </div>
 
