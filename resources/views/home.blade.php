@@ -97,6 +97,9 @@
                                         <div class="carousel-item h-100">
                                             <img class="d-block mw-100 mh-100 mx-auto" src="https://i.imgur.com/395yiWJ.jpg">
                                         </div>
+                                        <div class="carousel-item h-100">
+                                            <img class="d-block mw-100 mh-100 mx-auto" src="https://i.imgur.com/gjkgkn8.jpg">
+                                        </div>
                                     </div>
                                     <a class="carousel-control-prev" href="#carousel-gallery" role="button" data-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -129,6 +132,9 @@
                             </li>
                             <li data-target="#carousel-gallery" data-slide-to="5">
                                 <div style="background-image: url(https://i.imgur.com/395yiWJ.jpg);"></div>
+                            </li>
+                            <li data-target="#carousel-gallery" data-slide-to="5">
+                                <div style="background-image: url(https://i.imgur.com/gjkgkn8.jpg);"></div>
                             </li>
                         </ol>
                     </div>
