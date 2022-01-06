@@ -204,7 +204,7 @@
                 <div class="comment image-right">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="comment-body text-right">
+                            <div class="comment-body">
                                 <div class="comment-author"></div>
                                 <div class="comment-date"></div>
                                 <div class="comment-text"></div>
