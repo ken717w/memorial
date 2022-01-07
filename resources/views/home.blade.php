@@ -45,6 +45,14 @@
             </div>
         </div>
 
+        <div id="section-video">
+            <div class="container">
+                <div class="embed-responsive embed-responsive-16by9 mb-5">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rFZvYUf1eA8"></iframe>
+                </div>
+            </div>
+        </div>
+
         <div id="section-messages">
             <div class="container">
                 <blockquote class="blockquote">
