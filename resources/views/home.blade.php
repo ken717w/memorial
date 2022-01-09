@@ -50,6 +50,28 @@
                 <div class="embed-responsive embed-responsive-16by9 mb-5">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rFZvYUf1eA8"></iframe>
                 </div>
+
+                <div class="embed-responsive embed-responsive-16by9 mb-5">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dBLRo6iIWdY"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div id="section-slides">
+            <div class="container">
+                {{-- Desktop --}}
+                <div class="d-none d-lg-block">
+                    <div class="embed-responsive embed-responsive-16by9 mb-5">
+                        <object class="embed-responsive-item" data="https://storage.googleapis.com/stephen-fung-memorial.appspot.com/static/05780F3E63316D936B9AD98AB7B8E1B6.pdf" type="application/pdf" width="100%" height="100%"></object>
+                    </div>
+                </div>
+
+                {{-- Mobile --}}
+                <div class="d-lg-none">
+                    <div class="embed-responsive embed-responsive-1by1 mb-5">
+                        <object class="embed-responsive-item" data="https://storage.googleapis.com/stephen-fung-memorial.appspot.com/static/05780F3E63316D936B9AD98AB7B8E1B6.pdf" type="application/pdf" width="100%" height="100%"></object>
+                    </div>
+                </div>
             </div>
         </div>
 
